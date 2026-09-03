@@ -7,7 +7,7 @@ Feature: Demo test
   @allure.label.epic:Buttons
   @allure.label.feature:Remove
   @allure.label.story:Valid_remove_button
-  Scenario: Remove button
+  Scenario: Validate remove button
     When user clicks link 'Add/Remove Elements'
       And user click Add button
     Then remove button is displayed
